@@ -1,0 +1,21 @@
+title: Phyo Min Htun (Joseph)
+description: Cloud Enthusiast. DevOps
+site_title: '@josephphyo'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: josephphyo
+blog_url: https://josephphyo.github.io
+email: phyominhtun1990@gmail.com
+#keybase_username: abhn
+#twitter_username: abhn_
+#reddit_username: abhn
+
+# absolute or relative
+profile_picture: assets/images/pp.jpg
+
+# Google Analytics ID
+google_analytics: 
