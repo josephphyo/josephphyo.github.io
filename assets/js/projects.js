@@ -20,13 +20,13 @@ let render_projects = (slug) => {
             categories: ['featured', 'Amazon Web Services' ]
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['featured', 'webdev']
+            image: 'assets/images/gameday.jpg',
+            link: 'https://aws.amazon.com/gameday/',
+            title: ' AWS Ninja Game Day (Myanmar) Champion',
+            demo: 'https://aws.amazon.com/gameday/',
+            technologies: ['Amazon Web Services'],
+            description: "GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions to solve real-world problems in a gamified, risk-free environment. This is a completely hands-on opportunity for technical professionals to explore AWS services, architecture patterns, best practices, and group cooperation.",
+            categories: ['featured', 'Amazon Web Services']
         },
         {
             image: 'assets/images/collage.jpg',
