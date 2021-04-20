@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             title: ' AWS Ninja Game Day (Myanmar) Champion',
             demo: 'https://aws.amazon.com/gameday/',
             technologies: ['Amazon Web Services'],
-            description: "GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions to solve real-world problems in a gamified, risk-free environment. This is a completely hands-on opportunity for technical professionals to explore AWS services, architecture patterns, best practices, and group cooperation.",
+            description: "GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions to solve real-world problems in a gamified, risk-free environment.",
             categories: ['featured', 'Amazon Web Services']
         },
         {
