@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'https://aws.amazon.com/startups/',
             technologies: ['Amazon Web Services'],
             description: "Working together with AWS to support early-stage tech startups in Myanmar.",
-            categories: ['Amazon Web Services', 'featured' ]
+            categories: ['featured', 'Amazon Web Services' ]
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
