@@ -23,25 +23,25 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://www.nagekar.com/2017/02/trip-to-bramhatal-uttarakhand.html',
-            title: 'Trek To Bramhatal (Uttarakhand)',
+            url: 'https://medium.com/@phyominhtun/infrastructure-as-code-with-aws-codepipeline-f413c78a7503',
+            title: 'Infrastructure as Code with AWS CodePipeline',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'Privacy - How I Converted',
+            url: 'https://medium.com/@phyominhtun/amazon-eks-cluster-provisioning-17194be3c466',
+            title: 'Amazon EKS Cluster Provisioning',
         },
         {
-            url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
-            title: 'Jagriti Yatra 2017',
+            url: 'https://medium.com/@phyominhtun/using-aws-systems-manager-to-login-ec2-instance-without-ssh-a1044b0aef18',
+            title: 'Using AWS Systems Manager to login EC2 instance without SSH',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
+            url: 'https://medium.com/@phyominhtun/managing-private-ec2-instance-with-bastion-host-78e92a421f68',
+            title: 'Managing private EC2 instance with Bastion Host',
         },
-        {
-            url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: 'ELI5 - How HTTPS Works',
-        },
+        // {
+        //   url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
+        //    title: 'ELI5 - How HTTPS Works',
+        //},
     ];
 
     let post_html = [];
