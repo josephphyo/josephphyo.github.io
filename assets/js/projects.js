@@ -37,13 +37,13 @@ let render_projects = (slug) => {
             categories: ['featured', 'aws', 'talks']
         },
         {
-            image: 'assets/images/mpw.jpg',
-            link: 'https://github.com/abhn/mpw',
-            title: 'Master Password',
-            demo: 'https://www.nagekar.com/mpw',
-            technologies: ['Semantic UI', 'CSS3'],
-            description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
-            categories: ['featured', 'security']
+            image: 'assets/images/talk-2.jpg',
+            link: 'https://www.youtube.com/watch?v=W8VX2T_fzJ8',
+            title: 'Amazon EKS - Kubernetes on AWS',
+            demo: 'https://www.youtube.com/watch?v=W8VX2T_fzJ8',
+            technologies: ['Amazon Web Services', 'Container'],
+            description: "Amazon EKS - Kubernetes on AWS.",
+            categories: ['featured', 'aws', 'talks']
         },
     ]
 
