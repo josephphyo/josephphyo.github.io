@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://aws.amazon.com/startups/',
             title: 'AWS Startup Scout',
             //demo: 'https://aws.amazon.com/startups/',
-            //technologies: ['Amazon Web Services'],
+            technologies: ['Amazon Web Services'],
             description: "Working together with AWS to support early-stage tech startups in Myanmar.",
             categories: ['featured', 'aws', 'contributions' ]
         },
@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             link: 'https://aws.amazon.com/gameday/',
             title: ' AWS Ninja Game Day (Champion)',
             //demo: 'https://aws.amazon.com/gameday/',
-            //technologies: ['Amazon Web Services'],
+            technologies: ['Amazon Web Services'],
             description: "GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions to solve real-world problems in a gamified, risk-free environment.",
             categories: ['featured', 'aws', 'awards']
         },
@@ -32,9 +32,8 @@ let render_projects = (slug) => {
             image: 'assets/images/talk-1.jpg',
             link: 'https://www.youtube.com/watch?v=MeHSAsvtqVI&t=453s',
             title: 'AWS Cloud Business Essentials',
-            event: 'Phandeeyar Remote Learning Festival',
-            technologies: ['Event - Phandeeyar Remote Learning Festival'],
-            description: "AWS Cloud Business Essentials & Architecture Best Practices.",
+            technologies: ['Amazon Web Services'],
+            description: "Event - Phandeeyar Remote Learning Festival.",
             categories: ['featured', 'talks']
         },
         {
