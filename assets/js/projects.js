@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             //demo: 'https://aws.amazon.com/gameday/',
             technologies: ['Amazon Web Services', 'Migrations'],
             description: "GameDay is a collaborative learning exercise that tests skills ...",
-            categories: ['featured', 'aws', 'awards']
+            categories: ['featured', 'aws', 'contributions', 'awards']
         },
         {
             image: 'assets/images/talk-1.jpg',
