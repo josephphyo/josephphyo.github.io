@@ -45,6 +45,15 @@ let render_projects = (slug) => {
             description: "Event - AWS User Group Myanmar - Online Meetup.",
             categories: ['featured', 'aws', 'talks']
         },
+        {
+            image: 'assets/images/workshop-1.jpg',
+            link: 'https://github.com/josephphyo/aws-infra-pipeline-demo',
+            title: 'Provision AWS Resources with Terraform.',
+            demo: 'https://github.com/josephphyo/aws-infra-pipeline-demo',
+            technologies: ['Amazon Web Services', 'IaC'],
+            description: "Provision AWS Resources with Terraform.",
+            categories: ['featured', 'aws', 'iac', 'workshop']
+        },
     ]
 
     let projects = [];
