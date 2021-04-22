@@ -32,7 +32,7 @@ let render_projects = (slug) => {
             image: 'assets/images/talk-1.jpg',
             link: 'https://www.youtube.com/watch?v=MeHSAsvtqVI&t=453s',
             title: 'AWS Cloud Business Essentials',
-            technologies: ['Amazon Web Services'],
+            technologies: ['Amazon Web Services', 'Architecture'],
             description: "Event - Phandeeyar Remote Learning Festival.",
             categories: ['featured', 'aws', 'talks']
         },
