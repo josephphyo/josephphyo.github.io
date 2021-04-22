@@ -29,13 +29,14 @@ let render_projects = (slug) => {
             categories: ['featured', 'aws', 'awards']
         },
         {
-            image: 'assets/images/collage.jpg',
-            link: 'https://github.com/abhn/Marvel',
-            title: 'Marvel',
-            demo: false,
-            technologies: ['Android', 'OpenCV'],
-            description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
-            categories: ['featured', 'native']
+            image: 'assets/images/talk-1.jpg',
+            link: 'https://www.youtube.com/watch?v=MeHSAsvtqVI&t=453s',
+            title: 'AWS Cloud Business Essentials',
+            //demo: false,
+            event: 'Phandeeyar Remote Learning Festival',
+            technologies: ['Amazon Web Services'],
+            description: "AWS Cloud Business Essentials & Architecture Best Practices.",
+            categories: ['featured', 'talks']
         },
         {
             image: 'assets/images/mpw.jpg',
