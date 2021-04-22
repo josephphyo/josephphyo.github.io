@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://aws.amazon.com/startups/',
             title: 'AWS Startup Scout',
             //demo: 'https://aws.amazon.com/startups/',
-            technologies: ['Amazon Web Services'],
+            technologies: ['Amazon Web Services', 'Startup'],
             description: "Working together with AWS to support early-stage tech startups in Myanmar.",
             categories: ['featured', 'aws', 'contributions' ]
         },
@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             link: 'https://aws.amazon.com/gameday/',
             title: ' AWS Ninja Game Day (Champion)',
             //demo: 'https://aws.amazon.com/gameday/',
-            technologies: ['Amazon Web Services'],
+            technologies: ['Amazon Web Services', 'Migrations'],
             description: "GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions to solve real-world problems in a gamified, risk-free environment.",
             categories: ['featured', 'aws', 'awards']
         },
