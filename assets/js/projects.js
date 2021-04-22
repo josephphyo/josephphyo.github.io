@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'AWS Cloud Business Essentials',
             technologies: ['Amazon Web Services'],
             description: "Event - Phandeeyar Remote Learning Festival.",
-            categories: ['featured', 'talks']
+            categories: ['featured', 'aws', 'talks']
         },
         {
             image: 'assets/images/mpw.jpg',
