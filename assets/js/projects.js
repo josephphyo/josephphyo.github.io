@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             title: ' AWS Ninja Game Day (Champion)',
             //demo: 'https://aws.amazon.com/gameday/',
             technologies: ['Amazon Web Services', 'Migrations'],
-            description: "GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions...",
+            description: "GameDay is a collaborative learning exercise that tests skills ...",
             categories: ['featured', 'aws', 'awards']
         },
         {
