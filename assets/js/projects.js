@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             //demo: 'https://aws.amazon.com/startups/',
             technologies: ['Amazon Web Services'],
             description: "Working together with AWS to support early-stage tech startups in Myanmar.",
-            categories: ['featured', 'Amazon Web Services' ]
+            categories: ['featured', 'aws', 'contributions' ]
         },
         {
             image: 'assets/images/gameday.jpg',
@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             //demo: 'https://aws.amazon.com/gameday/',
             technologies: ['Amazon Web Services'],
             description: "GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions to solve real-world problems in a gamified, risk-free environment.",
-            categories: ['featured', 'Amazon Web Services']
+            categories: ['featured', 'aws', 'awards']
         },
         {
             image: 'assets/images/collage.jpg',
