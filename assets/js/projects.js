@@ -55,6 +55,15 @@ let render_projects = (slug) => {
             categories: ['featured', 'aws', 'iac', 'workshop']
         },
         {
+            image: 'assets/images/workshop-3.jpg',
+            link: 'https://github.com/josephphyo/cloudformation-codepipeline',
+            title: 'Provision AWS Resources with AWS CloudFormation',
+            demo: 'https://github.com/josephphyo/cloudformation-codepipeline',
+            technologies: ['Amazon Web Services', 'IaC'],
+            description: "In this tutorial, Create AWS CloudFormation template stack automatically deploy with AWS CodePipeline.",
+            categories: ['featured', 'aws', 'iac', 'workshop']
+        },
+        {
             image: 'assets/images/workshop-2.jpg',
             link: 'https://github.com/josephphyo/aws-packer-ami-image-pipeline',
             title: 'AWS AMI Pipeline with Packer',
