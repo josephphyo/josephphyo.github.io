@@ -52,7 +52,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/josephphyo/aws-infra-pipeline-demo',
             technologies: ['Amazon Web Services', 'IaC'],
             description: "Provision AWS Resources with Terraform.",
-            categories: ['featured', 'aws', 'iac', 'workshop']
+            categories: ['aws', 'iac', 'workshop']
         },
         {
             image: 'assets/images/workshop-3.jpg',
@@ -61,7 +61,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/josephphyo/cloudformation-codepipeline',
             technologies: ['Amazon Web Services', 'IaC'],
             description: "Provision AWS Resources with AWS CloudFormation.",
-            categories: ['featured', 'aws', 'iac', 'workshop']
+            categories: ['aws', 'iac', 'workshop']
         },
         {
             image: 'assets/images/workshop-2.jpg',
@@ -70,7 +70,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/josephphyo/aws-packer-ami-image-pipeline',
             technologies: ['Amazon Web Services'],
             description: "Create Automated AMI Image Pipeline with HashiCorp Packer and AWS CodeBuild.",
-            categories: ['featured', 'aws', 'workshop']
+            categories: ['aws', 'workshop']
         },
     ]
 
