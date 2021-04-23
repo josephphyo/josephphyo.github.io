@@ -41,7 +41,7 @@ let render_projects = (slug) => {
             link: 'https://www.youtube.com/watch?v=W8VX2T_fzJ8',
             title: 'Amazon EKS - Kubernetes on AWS',
             //demo: 'https://www.youtube.com/watch?v=W8VX2T_fzJ8',
-            technologies: ['Amazon Web Services', 'Container'],
+            technologies: ['Amazon Web Services', 'eks', 'kubernetes'],
             description: "Event - AWS User Group Myanmar - Online Meetup.",
             categories: ['featured', 'aws', 'talks']
         },
