@@ -60,7 +60,7 @@ let render_projects = (slug) => {
             title: 'Provision AWS Resources with AWS CloudFormation',
             demo: 'https://github.com/josephphyo/cloudformation-codepipeline',
             technologies: ['Amazon Web Services', 'IaC'],
-            description: "In this tutorial, Create AWS CloudFormation template stack automatically deploy with AWS CodePipeline.",
+            description: "Provision AWS Resources with AWS CloudFormation.",
             categories: ['featured', 'aws', 'iac', 'workshop']
         },
         {
