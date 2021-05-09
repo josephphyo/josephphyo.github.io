@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             //demo: 'https://aws.amazon.com/gameday/',
             //technologies: ['Amazon Web Services', 'Migrations'],
             description: "https://github.com/josephphyo",
-            categories: ['contributions']
+            categories: ['aws','contributions']
         },
         {
             image: 'assets/images/talk-1.jpg',
