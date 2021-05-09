@@ -29,15 +29,6 @@ let render_projects = (slug) => {
             categories: ['featured', 'aws', 'contributions', 'awards']
         },
         {
-            image: 'assets/images/github.jpg',
-            link: 'https://github.com/josephphyo',
-            title: 'Visit my github',
-            //demo: 'https://aws.amazon.com/gameday/',
-            //technologies: ['Amazon Web Services', 'Migrations'],
-            description: "https://github.com/josephphyo",
-            categories: ['aws','contributions']
-        },
-        {
             image: 'assets/images/talk-1.jpg',
             link: 'https://www.youtube.com/watch?v=MeHSAsvtqVI&t=453s',
             title: 'AWS Cloud Business Essentials',
