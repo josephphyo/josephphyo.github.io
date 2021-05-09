@@ -22,11 +22,20 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/gameday.jpg',
             link: 'https://aws.amazon.com/gameday/',
-            title: ' AWS Ninja Game Day (Champion)',
+            title: 'AWS Ninja Game Day (Champion)',
             //demo: 'https://aws.amazon.com/gameday/',
             technologies: ['Amazon Web Services', 'Migrations'],
             description: "GameDay is a collaborative learning exercise that tests skills ...",
             categories: ['featured', 'aws', 'contributions', 'awards']
+        },
+        {
+            image: 'assets/images/github.jpg',
+            link: 'https://github.com/josephphyo',
+            title: 'Visit my github',
+            //demo: 'https://aws.amazon.com/gameday/',
+            //technologies: ['Amazon Web Services', 'Migrations'],
+            description: "https://github.com/josephphyo",
+            categories: ['contributions']
         },
         {
             image: 'assets/images/talk-1.jpg',
