@@ -35,8 +35,8 @@ function blog_posts() {
             title: 'Using AWS Systems Manager to login EC2 instance without SSH',
         },
         {
-            url: 'https://medium.com/@phyominhtun/managing-private-ec2-instance-with-bastion-host-78e92a421f68',
-            title: 'Managing private EC2 instance with Bastion Host',
+            url: 'https://phyominhtun.medium.com/managing-private-ec2-instance-with-bastion-host-78e92a421f68',
+            title: 'Securing private Linux EC2 instance with Bastion Host (Myanmar)',
         },
         {
             url: 'https://phyominhtun.medium.com/securing-private-linux-ec2-instance-with-bastion-host-5a4d5dd7a266',
