@@ -38,6 +38,10 @@ function blog_posts() {
             url: 'https://medium.com/@phyominhtun/managing-private-ec2-instance-with-bastion-host-78e92a421f68',
             title: 'Managing private EC2 instance with Bastion Host',
         },
+        {
+            url: 'https://phyominhtun.medium.com/securing-private-linux-ec2-instance-with-bastion-host-5a4d5dd7a266',
+            title: 'Securing private Linux EC2 instance with Bastion Host',
+        },
         // {
         //   url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
         //    title: 'ELI5 - How HTTPS Works',
