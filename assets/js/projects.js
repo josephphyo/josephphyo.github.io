@@ -46,6 +46,15 @@ let render_projects = (slug) => {
             categories: ['featured', 'aws', 'talks']
         },
         {
+            image: 'assets/images/talk-3.jpg',
+            link: 'https://fb.watch/8-PFH48sX0/',
+            title: 'Automate Possible (IaC and AWS CI/CD Pipeline)',
+            //demo: 'https://www.youtube.com/watch?v=W8VX2T_fzJ8',
+            technologies: ['Amazon Web Services', 'IaC'],
+            description: "Event - BIM DAY With IT Professionals 2020.",
+            categories: ['featured', 'aws', 'talks']
+        },
+        {
             image: 'assets/images/workshop-1.jpg',
             link: 'https://github.com/josephphyo/aws-infra-pipeline-demo',
             title: 'Provision AWS Resources with Terraform',
