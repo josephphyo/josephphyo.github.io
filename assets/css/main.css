@@ -301,6 +301,16 @@ a:hover { color: var(--green); }
 
 /* ── Blinking cursor ──────────────────────── */
 
+.type-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1em;
+  background: #fff;
+  vertical-align: text-bottom;
+  animation: blink 0.7s step-end infinite;
+  margin-left: 1px;
+}
+
 .cursor {
   display: inline-block;
   width: 8px;
