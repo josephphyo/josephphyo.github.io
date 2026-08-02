@@ -1,7 +1,19 @@
-<div class="odyssey-scene">
+<div class="odyssey-scene" id="odyssey-scene">
   <span class="odyssey-sheep s1">🐑</span>
   <span class="odyssey-sheep s2">🐑</span>
   <span class="odyssey-sheep s3">🐑</span>
   <span class="odyssey-sheep s4">🐑</span>
   <span class="odyssey-cyclops">🧌</span>
 </div>
+
+<script>
+  (function () {
+    var scene = document.getElementById('odyssey-scene');
+    function checkScroll() {
+      var nearBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 300;
+      scene.classList.toggle('visible', nearBottom);
+    }
+    window.addEventListener('scroll', checkScroll);
+    checkScroll();
+  })();
+</script>
