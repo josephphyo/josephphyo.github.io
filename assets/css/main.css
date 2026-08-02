@@ -78,13 +78,13 @@ a:hover { color: var(--green); }
   flex-wrap: wrap;
 }
 
-.prompt-user   { color: #56d364; font-weight: 600; }
-.prompt-at     { color: var(--text-dim); }
-.prompt-host   { color: var(--blue); font-weight: 600; }
-.prompt-colon  { color: var(--text-dim); }
-.prompt-path   { color: var(--purple); }
-.prompt-dollar { color: var(--text-dim); margin: 0 4px; }
-.prompt-cmd    { color: var(--text); }
+.prompt-user   { color: #fff; font-weight: 600; }
+.prompt-at     { color: #fff; }
+.prompt-host   { color: #fff; font-weight: 600; }
+.prompt-colon  { color: #fff; }
+.prompt-path   { color: #fff; }
+.prompt-dollar { color: #fff; margin: 0 4px; }
+.prompt-cmd    { color: #fff; }
 
 /* ── Hero / Nav ───────────────────────────── */
 
@@ -185,7 +185,7 @@ a:hover { color: var(--green); }
 .section-heading { display: none; }
 
 .term-output-heading {
-  color: var(--blue);
+  color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 8px 0 20px 0;
