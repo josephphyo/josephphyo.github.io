@@ -1,0 +1,57 @@
+.odyssey-scene {
+  position: fixed;
+  bottom: 52px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  pointer-events: none;
+  z-index: 99;
+  overflow: hidden;
+}
+
+.odyssey-sheep,
+.odyssey-cyclops {
+  position: absolute;
+  bottom: 4px;
+  user-select: none;
+  line-height: 1;
+}
+
+.odyssey-sheep  { font-size: 1.8rem; }
+.odyssey-cyclops { font-size: 2.8rem; bottom: 0; }
+
+/* ── Walk across screen ───────────────────── */
+
+@keyframes sheep-walk {
+  from { left: -10%; }
+  to   { left: 110%; }
+}
+
+@keyframes cyclops-lumber {
+  from { left: -15%; }
+  to   { left: 110%; }
+}
+
+/* ── Bounce / wobble ──────────────────────── */
+
+@keyframes sheep-bob {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+
+@keyframes cyclops-wobble {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50%       { transform: translateY(-4px) rotate(4deg); }
+}
+
+/* ── Individual sheep timings ─────────────── */
+
+.s1 { animation: sheep-walk 18s linear 0s infinite, sheep-bob 0.50s ease-in-out 0.0s infinite; }
+.s2 { animation: sheep-walk 14s linear 5s infinite, sheep-bob 0.60s ease-in-out 0.2s infinite; }
+.s3 { animation: sheep-walk 20s linear 10s infinite, sheep-bob 0.55s ease-in-out 0.1s infinite; }
+.s4 { animation: sheep-walk 16s linear 15s infinite, sheep-bob 0.65s ease-in-out 0.3s infinite; }
+
+.odyssey-cyclops {
+  animation: cyclops-lumber 30s linear 8s infinite,
+             cyclops-wobble 1.0s ease-in-out 0s infinite;
+}
