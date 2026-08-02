@@ -478,6 +478,69 @@ a {
   margin-right: 0px;
 }
 
+/* Skills redesign */
+.skills-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.skill-category {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 20px 24px;
+  transition: box-shadow 0.3s ease;
+}
+
+.skill-category:hover {
+  box-shadow: 0 4px 20px rgba(52, 152, 219, 0.12);
+}
+
+.skill-category-title {
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #2980b9;
+  margin-bottom: 14px;
+}
+
+.skill-category-title i {
+  margin-right: 6px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background: #3498db;
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  transition: all 0.25s ease;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.35);
+}
+
+@media screen and (max-width: 600px) {
+  .skills-categories {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
 
