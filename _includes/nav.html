@@ -1,16 +1,37 @@
 
 <section class="head" id="nav">
-    <div class="head-inner-wrap">
-        <div class="profile-pic-div animated">
-            <a href="#about" class="profile-pic-link"><img src="{{ site.profile_picture }}" class="profile-pic"/></a>
+    <div class="terminal-window hero-terminal animated">
+        <div class="terminal-titlebar">
+            <span class="terminal-dot dot-red"></span>
+            <span class="terminal-dot dot-yellow"></span>
+            <span class="terminal-dot dot-green"></span>
+            <span class="terminal-title">josephphyo@github: ~</span>
         </div>
-        <div class="head-name head-title animated" id="head-name">{{ site.title }}</div>
-        <div class="head-punchline animated">{{ site.description }}</div>
-        <div class="head-menu-wrap">
-            <a class="semi-transparent-button with-border nav-links" href="#about">ABOUT</a>
-            <a class="semi-transparent-button with-border nav-links" href="#skills">SKILLS</a>
-            <a class="semi-transparent-button with-border nav-links" href="#projects">PORTFOLIO</a>
-            <a class="semi-transparent-button with-border nav-links" href="#blog-posts">BLOG</a>
+        <div class="terminal-body">
+            <div class="profile-pic-div">
+                <a href="#about" class="profile-pic-link">
+                    <img src="{{ site.profile_picture }}" class="profile-pic"/>
+                </a>
+            </div>
+
+            <div class="term-prompt-line">
+                <span class="prompt-user">josephphyo</span><span class="prompt-at">@</span><span class="prompt-host">github</span><span class="prompt-colon">:</span><span class="prompt-path">~</span><span class="prompt-dollar"> $</span>
+                <span class="prompt-cmd"> whoami</span>
+            </div>
+            <div class="head-title">{{ site.title }}</div>
+
+            <div class="term-prompt-line">
+                <span class="prompt-user">josephphyo</span><span class="prompt-at">@</span><span class="prompt-host">github</span><span class="prompt-colon">:</span><span class="prompt-path">~</span><span class="prompt-dollar"> $</span>
+                <span class="prompt-cmd"> cat tagline.txt</span>
+            </div>
+            <div class="head-punchline">{{ site.description }}</div>
+
+            <div class="head-menu-wrap">
+                <a class="term-btn nav-links" href="#about">./about</a>
+                <a class="term-btn nav-links" href="#skills">./skills</a>
+                <a class="term-btn nav-links" href="#projects">./portfolio</a>
+                <a class="term-btn nav-links" href="#blog-posts">./blog</a>
+            </div>
         </div>
     </div>
 </section>
