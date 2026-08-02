@@ -78,13 +78,13 @@ a:hover { color: var(--green); }
   flex-wrap: wrap;
 }
 
-.prompt-user   { color: #fff; font-weight: 600; }
-.prompt-at     { color: #fff; }
-.prompt-host   { color: #fff; font-weight: 600; }
-.prompt-colon  { color: #fff; }
-.prompt-path   { color: #fff; }
-.prompt-dollar { color: #fff; margin: 0 4px; }
-.prompt-cmd    { color: #fff; }
+.prompt-user,
+.prompt-at,
+.prompt-host,
+.prompt-colon,
+.prompt-path,
+.prompt-cmd    { color: #fff !important; font-weight: 600; }
+.prompt-dollar { color: #fff !important; margin: 0 4px; }
 
 /* ── Hero / Nav ───────────────────────────── */
 
@@ -185,7 +185,7 @@ a:hover { color: var(--green); }
 .section-heading { display: none; }
 
 .term-output-heading {
-  color: #fff;
+  color: #fff !important;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 8px 0 20px 0;
